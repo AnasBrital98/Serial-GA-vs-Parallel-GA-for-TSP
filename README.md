@@ -15,10 +15,10 @@ Genetic Algorithm Contains those steps :
 * Calculate The Fitness for Each Element ...
     - in our case the Fitness Function is :
     
-    ![Fitness Function](Resources/Fitness.png "Fitness Function")
+    ![Fitness Function](Resources/fitness.png "Fitness Function")
     - is This Work we Used Euclidean Distance The Formula is like below :
     
-    ![Euclidean Distance](Resources/Distance.png "Euclidean Distance")
+    ![Euclidean Distance](Resources/distance.png "Euclidean Distance")
 * Selection 
     - the selection process Consists of Selecting Some Individuals and apply on them CrossOver and Mutation to pass them to The Next Generation .
     - There is a lot of Selection Methods like :
@@ -43,6 +43,11 @@ Genetic Algorithm Contains those steps :
 ---
 ## Traveling Salesman Problem
 Genetic Algorithm can bet used to find high quality Solution in a short time for NP-Hard Problems such as Traveling SalesMan Problem , Knapsack problem , Clique problem ...
+
+> TSP Mathematical Model is like below :
+![TSP](Resources/TspFormula.png)
+
+> with T[i] is a candidate Tour , and f is the Fitness Function .
 
 >In this Work we used Genetic Algorithm to solve The traveling salesman problem .
 
