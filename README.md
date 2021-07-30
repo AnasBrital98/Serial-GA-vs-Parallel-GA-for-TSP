@@ -14,8 +14,10 @@ Genetic Algorithm Contains those steps :
     - or we can initialze it with the result that someone else get , this is what we called **Heuristic Initialisation** .  
 * Calculate The Fitness for Each Element ...
     - in our case the Fitness Function is :
+    
     ![Fitness Function](Resources/Fitness.png "Fitness Function")
     - is This Work we Used Euclidean Distance The Formula is like below :
+    
     ![Euclidean Distance](Resources/Distance.png "Euclidean Distance")
 * Selection 
     - the selection process Consists of Selecting Some Individuals and apply on them CrossOver and Mutation to pass them to The Next Generation .
@@ -52,11 +54,13 @@ Genetic Algorithm can bet used to find high quality Solution in a short time for
 ![Parallelism Processing Vs Serial Processing](Resources/serialVsParallel.png "Parallelism Processing Vs Serial Processing")
 ---
 > To Apply Parallelism Processing, we used two Libraries , OpenMP and MPI .
----
+
 > OpenMP Programming Model :
+
 ![OpenMP Programming Model](Resources/OpenMP.gif "OpenMP Programming Model")
 ---
 > MPI Programming Model :
+
 ![MPI Programming Model](Resources/MPI.gif "MPI Programming Model")
 
 in this work we used two approaches :
@@ -68,12 +72,15 @@ in this work we used two approaches :
 ## Result
 ---
 > Serial Genetic Algorithm result :
+
 ![Serial GA result](Resources/Serial.png "Serial GA result")
 ---
 > Parallel Genetic Algorithm result :
+
 ![Parallel GA result](Resources/Parallel.png "Parallel GA result")
 ---
 >Parallel GA vs Serial GA
+
 ![Parallel GA vs Serial GA result](Resources/ParallelVsSerial.png "Parallel GA vs Serial GA result")
 
 > To Generate The charts we Used This Script [script](Resources/Generator.py)
