@@ -45,6 +45,7 @@ Genetic Algorithm Contains those steps :
 Genetic Algorithm can bet used to find high quality Solution in a short time for NP-Hard Problems such as Traveling SalesMan Problem , Knapsack problem , Clique problem ...
 
 > TSP Mathematical Model is like below :
+
 ![TSP](Resources/TspFormula.PNG)
 
 > with T[i] is a candidate Tour , and f is the Fitness Function .
