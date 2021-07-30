@@ -15,10 +15,10 @@ Genetic Algorithm Contains those steps :
 * Calculate The Fitness for Each Element ...
     - in our case the Fitness Function is :
     
-    ![Fitness Function](Resources/fitness.png "Fitness Function")
+    ![Fitness Function](Resources/Fitness.PNG "Fitness Function")
     - is This Work we Used Euclidean Distance The Formula is like below :
     
-    ![Euclidean Distance](Resources/distance.png "Euclidean Distance")
+    ![Euclidean Distance](Resources/distance.PNG "Euclidean Distance")
 * Selection 
     - the selection process Consists of Selecting Some Individuals and apply on them CrossOver and Mutation to pass them to The Next Generation .
     - There is a lot of Selection Methods like :
